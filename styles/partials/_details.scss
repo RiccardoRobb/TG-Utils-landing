@@ -1,0 +1,48 @@
+$basicBgColor: #f9f8f8;
+
+.basic-1 {
+    //background-color: $basicBgColor;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.basic-1 .text-container {
+    margin-bottom: 4rem;
+}
+
+.basic-1 h2 {
+    margin-bottom: 1.875rem;
+}
+
+.basic-1 p, .basic-2 p {
+    font-size: 1.3rem;
+    margin-bottom: 1.875rem;
+}
+
+.basic-1 .btn-solid-reg {
+    cursor: pointer;
+}
+
+////////
+
+.basic-1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.basic-1 .text-container {
+    margin-bottom: 5rem;
+}
+
+.basic-1 h2 {
+    margin-bottom: 1.875rem;
+}
+
+.basic-2 .list-unstyled .fas {
+    font-size: 0.375rem;
+    line-height: 1.625rem;
+}
+
+.basic-2 .list-unstyled .flex-grow-1 {
+    margin-left: 0.5rem;
+}

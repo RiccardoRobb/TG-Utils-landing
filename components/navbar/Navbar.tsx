@@ -1,17 +1,20 @@
 import Link from "next/link"
+import { useRouter } from "next/router";
 
 export default function Navbar() {
+    const router = useRouter();
+
     return (
         <nav id="navbar" className="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
             <div className="container">
                 <Link href="/">
                     <a className="navbar-brand logo-text">Telegram utils</a>
                 </Link>
-                <button className="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcont" id="navbarsidecollapse" aria-label="Toggle navigation">
+                <button className="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcont" id="navbarsidecollapse" aria-controls="#navbarcont" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="navbar-collapse offcanvas-collapse" id="navbarcont">
+                <div className="navbar-collapse offcanvas-collapse collapse" id="navbarcont">
                     <ul className="navbar-nav ms-auto navbar-nav-scroll">
                         <li className="nav-item">
                             <Link href="/">
@@ -19,7 +22,7 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="#utils">
+                            <Link href={ (router.asPath.includes("contact")) ? "../#utils" : "#utils" } >
                                 <a className="nav-link">Utilities</a>
                             </Link>
                         </li>

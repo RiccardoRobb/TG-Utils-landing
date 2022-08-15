@@ -4,7 +4,7 @@ import { Faq } from "../../types";
 
 
 const FAQ: React.FC<{ items: Faq[] }> = ({ items }) => {
-    const [show, setShow] = useState<String>(items[0].id);
+    const [show, setShow] = useState<String>();
    
     function handleClick(id: String){
         setShow(id);
@@ -52,7 +52,7 @@ const FAQ: React.FC<{ items: Faq[] }> = ({ items }) => {
                                                 <div className="accordion-item" key={item.id.toString()}>
                                                     <h2 className="accordion-header">
                                                         <button 
-                                                            className="accordion-button"
+                                                            className="accordion-button collapsed"
                                                             type="button"
                                                             data-bs-toggle="collapse"
                                                             data-bs-target={`#${item.id}`}

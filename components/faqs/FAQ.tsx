@@ -1,5 +1,6 @@
+import Link from "next/link";
 import { title } from "process";
-import { useState } from "react";
+import { ReactElement, ReactNode, useState } from "react";
 import { Faq } from "../../types";
 
 
@@ -8,6 +9,20 @@ const FAQ: React.FC<{ items: Faq[] }> = ({ items }) => {
    
     function handleClick(id: String){
         setShow(id);
+    }
+
+    function contactUsRef(answer: String, id: String) {
+        if (id === "faq-1") {
+            return (
+                <>
+                    {answer} &nbsp;
+                    <Link href="/contact#contact-form">
+                        <a>Contact us</a>
+                    </Link>
+                    &nbsp; page
+                </>                                                                                
+            )                                                                          
+        } else return <>{answer}</>
     }
 
     return (
@@ -40,8 +55,10 @@ const FAQ: React.FC<{ items: Faq[] }> = ({ items }) => {
                                                             className="accordion-collapse collapse show"
                                                             data-bs-parent="#my-accordion"
                                                         >
-                                                            <div className="accordion-body">
-                                                                {item.answer}
+                                                            <div className="accordion-body">                                                               
+                                                                {
+                                                                    contactUsRef(item.answer, item.id)
+                                                                }
                                                             </div>
                                                         </div>
                                                     </h2>

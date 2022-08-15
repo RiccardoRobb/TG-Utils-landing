@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Details() {
     return (
-        <>
+        <>{/*
             <div className="basic-1" id="utils">
                 <div className="container">
                     <div className="row align-items-center">
@@ -32,6 +32,7 @@ export default function Details() {
                     </div>
                 </div>
             </div>
+            */}
             <div className="basic-2">
                 <div className="container">
                     <div className="row align-items-center">

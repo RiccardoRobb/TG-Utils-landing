@@ -52,7 +52,7 @@ export default function Contact() {
                                 <h1 className="h1-large">Any problem?<br></br>   
                                     <span className="replace-me">Contact us</span>
                                 </h1>
-                                <p className="p-large">We are active 24/7 to help you</p>
+                                <p className="p-large">We are available 24/7 to help you</p>
                                 <a href="#contact-form" className="btn-solid-lg">Form</a>
                             </div>
                         </div>

@@ -11,9 +11,8 @@ export default function BHeader() {
                             <span> real users</span>
                             </h1>
                             <p className="p-large">
-                                Cheap real members from selected channels/groups
+                                Add cheap real members from selected groups
                             </p>
-                            <button className="btn-solid-lg">Learn more...</button>
                         </div>
                     </div>
                     <div className="col-lg-6">

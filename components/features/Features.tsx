@@ -4,14 +4,14 @@ import { Feature } from "../../types";
 const Features: React.FC<{ items: Feature[] }> = ({ items }) => {
     return (
         <div id="features" className="cards-1">
-            <div className="container">
+            <div className="container">{/*
                 <div className="row">
                     <div className="col-lg-12">
                         <h2 className="heading">
                         Telegram utils has <span>everything you need</span>
                         </h2>
                     </div>
-                </div>
+                </div>*/}
                 <div className="row">
                     <div className="col-lg-12">
                         {

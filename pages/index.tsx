@@ -29,7 +29,7 @@ const Home: NextPage<HomeProps> = ({ features, pricing, faqs }) => {
 
       <Features items={ features }/>
       
-      <Details />
+      {/*<Details />*/}
 
       <Invitation />
 

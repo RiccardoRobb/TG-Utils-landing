@@ -4,7 +4,7 @@ import { Price } from "../../types"
 
 const Pricing: React.FC<{ items: Price[] }> = ({ items }) => {
     return (
-        <div className="cards-2">
+        <div className="cards-2" id="prices">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

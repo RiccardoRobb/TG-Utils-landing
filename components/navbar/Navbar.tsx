@@ -22,8 +22,8 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href={ (router.asPath.includes("contact")) ? "../#utils" : "#utils" } >
-                                <a className="nav-link">Utilities</a>
+                            <Link href={ (router.asPath.includes("contact")) ? "../#prices" : "#prices" } >
+                                <a className="nav-link">Prices</a>
                             </Link>
                         </li>
                         <li className="nav-item">

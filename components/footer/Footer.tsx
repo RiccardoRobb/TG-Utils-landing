@@ -13,13 +13,13 @@ export default function FooterB() {
                         </div>
                         <div className="footer-col second">
                             <ul className="list-unstyled li-space p-small">
-                                <li>Privacy Policy</li>
-                                <li>Support: <Link href="/contact"><a>Contact us</a></Link></li>
+                                <li><Link href="/privacyPolicy"><a>Privacy Policy</a></Link></li>
+                                <li>Support: <Link href="/contact#contact-form"><a>Contact us</a></Link></li>
                             </ul>
                         </div>
                         <div className="footer-col third">
                             <span className="fa-stack">
-                                <Link href="https://twitter.com/elonmusk">
+                                <Link href="https://twitter.com/">
                                     <a>
                                         <i className="fas fa-circle fa-stack-2x"></i>
                                         <i className="fab fa-twitter fa-stack-1x"></i>
@@ -27,7 +27,7 @@ export default function FooterB() {
                                 </Link>
                             </span>
                             <span className="fa-stack">
-                                <Link href="https://twitter.com/elonmusk">
+                                <Link href="https://facebook.com/">
                                     <a>
                                         <i className="fas fa-circle fa-stack-2x"></i>
                                         <i className="fab fa-facebook fa-stack-1x"></i>
@@ -41,5 +41,3 @@ export default function FooterB() {
         </footer>
     )
 }
-
-// 4:30

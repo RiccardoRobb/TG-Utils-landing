@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import Layout from "../components/layouts/Layout";
 import { send } from "../services/emailjs.service";
 import { ContactForm } from "../types";
+import Link from "next/link";
 
 
 export default function Contact() {
@@ -122,7 +123,7 @@ export default function Contact() {
                                     </div>
                                     <div className="form-check text-start">
                                         <input 
-                                            type="radio" 
+                                            type="radio"
                                             name="costumer" 
                                             className="form-check-input" 
                                             id="noClient"
@@ -160,10 +161,9 @@ export default function Contact() {
                                             value="privacy"
                                         />
                                         <label htmlFor="privacy" className="form-check-label">
-                                            Accept the Privacy Policy
+                                            Accept the <Link href="/privacyPolicy"><a>Privacy Policy</a></Link>
                                         </label>
                                     </div>
-
                                     <button type="submit" className="btn-solid-lg">SEND</button>
                                 </form>
                             </div>

@@ -164,6 +164,7 @@ export default function Contact() {
                                             Accept the <Link href="/privacyPolicy"><a>Privacy Policy</a></Link>
                                         </label>
                                     </div>
+
                                     <button type="submit" className="btn-solid-lg">SEND</button>
                                 </form>
                             </div>

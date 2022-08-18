@@ -24,7 +24,7 @@ const Pricing: React.FC<{ items: Price[] }> = ({ items }) => {
                                                     className="decoration-lines" 
                                                     src="/images/arrow.png" 
                                                     alt="decLine"
-                                                    width="30"
+                                                    width="20"
                                                     height="9.75"
                                                 />
                                                 <span>{item.name}</span>
@@ -32,7 +32,7 @@ const Pricing: React.FC<{ items: Price[] }> = ({ items }) => {
                                                     className="decoration-lines flipped" 
                                                     src="/images/arrow.png" 
                                                     alt="decLine"
-                                                    width="30"
+                                                    width="20"
                                                     height="9.75"
                                                 />
                                             </div>

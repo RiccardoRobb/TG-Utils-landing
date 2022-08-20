@@ -22,7 +22,7 @@ export default function Login () {
     return (
         <>
             <Head>
-                <title>Turbo telegram - Contact us</title>
+                <title>Turbo telegram - Login</title>
                 <meta name="description" content="Powerful tools to improve you Telegram experience. Real members for yout Telegram group and Useful BOTs"/>
             </Head>
             <div className="container py-5 h-100">

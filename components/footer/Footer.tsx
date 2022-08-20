@@ -8,7 +8,7 @@ export default function FooterB() {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="footer-col first">
-                            <h6>Telegram utils</h6>
+                            <h6>Turbo Telegram</h6>
                             <p>Utilities for Telegram</p>
                         </div>
                         <div className="footer-col second">

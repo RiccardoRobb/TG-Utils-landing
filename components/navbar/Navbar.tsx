@@ -45,7 +45,9 @@ export default function Navbar() {
                         </li>
                     </ul>
                     <span className="nav-item">
-                        <a href="#" className="btn-outline-sm">Enter</a>
+                        <Link href="/login">
+                            <a className="btn-outline-sm">Login</a>
+                        </Link>
                     </span>
                 </div>
             </div>

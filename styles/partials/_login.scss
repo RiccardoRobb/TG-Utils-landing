@@ -1,0 +1,33 @@
+@import "../variables.scss";
+
+.base-v {
+    background-color: $primaryBgColor;
+    color: $primaryColor;
+
+    .p {
+        .a {
+            color: $linkColor;
+        }
+    }
+}
+
+.btn-outline-lg {
+    display: inline-block;
+    padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+    border: 1px solid $secondaryColor;
+    border-radius: 30px;
+    background-color: transparent;
+    color: $secondaryColor;
+    font-weight: 1000;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-outline-lg:hover {
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    text-decoration: none;
+    border: 1px solid $secondaryColor;
+}

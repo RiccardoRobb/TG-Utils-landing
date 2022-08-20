@@ -42,7 +42,7 @@ export default function Contact() {
     return (
         <Layout>
             <Head>
-                <title>Telegram utils - Contact us</title>
+                <title>Turbo telegram - Contact us</title>
                 <meta name="description" content="Powerful tools to improve you Telegram experience. Real members for yout Telegram group and Useful BOTs"/>
             </Head>
             <header className="header" id="header">

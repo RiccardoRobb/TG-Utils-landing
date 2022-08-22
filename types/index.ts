@@ -27,7 +27,7 @@ export type ContactForm = {
     problem: string;
 }
 
-export type TgQuest {
+export type TgQuest = {
     name: String;
     targets: String;
     total: number;

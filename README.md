@@ -1,1 +1,1 @@
-<a href="https://tg-utils.vercel.app/contact">Telegram utils</a>
+<a href="https://tg-utils-landing.vercel.app/">Telegram utils</a>

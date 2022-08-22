@@ -26,3 +26,10 @@ export type ContactForm = {
     privacy: boolean;
     problem: string;
 }
+
+export type TgQuest {
+    name: String;
+    targets: String;
+    total: number;
+    partial: number;
+}

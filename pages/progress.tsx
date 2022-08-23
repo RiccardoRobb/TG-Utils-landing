@@ -7,8 +7,8 @@ export default function Progress() {
         {
             name: "@BullyBuy",
             targets: "@PrezziBoni @PrezziPopoli",
-            total: 100,
-            partial: 37
+            total: 10000000,
+            partial: 3007
         },
         {
             name: "@BullyBuy",
